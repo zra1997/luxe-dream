@@ -1,0 +1,51 @@
+/*------------------------------------header----------------------------------*/
+body{
+  margin: 0;
+}
+.log-pic{
+  width: 180px;
+  height: auto;
+}
+.Header-background{
+  border-bottom: 1px solid rgb(210, 210, 210);
+  padding: 10px 0;
+  background-color: rgb(252, 252, 252);
+}
+.header-background{
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+}
+.header-menu1{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  width: 38%;
+}
+.header-menu2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+.searchbar{
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+}
+.cart{
+  display: flex;
+  flex-direction: row;
+}
+div{
+  margin: auto 0;
+}
+.header-background div{
+  margin-right: 40px;
+}
+.header-background > div{
+  font-size: small;
+  font-weight: lighter;
+}
